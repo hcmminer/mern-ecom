@@ -12,7 +12,9 @@ import analyticsRoutes from "./routes/analytics.route.js";
 
 import { connectDB } from "./lib/db.js";
 
-dotenv.config();
+const nodeEnv = process.env.NODE_ENV;
+
+dotenv.config({path: `.env.${nodeEnv}`});
 
 const app = express();
 const PORT = process.env.PORT || 5000;
