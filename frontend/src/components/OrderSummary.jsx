@@ -6,7 +6,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import axios from "../lib/axios";
 
 const stripePromise = loadStripe(
-	"pk_test_51KZYccCoOZF2UhtOwdXQl3vcizup20zqKqT9hVUIsVzsdBrhqbUI2fE0ZdEVLdZfeHjeyFXtqaNsyCJCmZWnjNZa00PzMAjlcL"
+	"pk_test_51KtJ05IxUdDE1OYkQdTbmY0wu6jpnaa0rLVJ4r3ZlzT9NLzpN7uEJELmp9Rj0Hj7Ac031yO78Pa2CpcHeq8NSS8d000VQVRstI"
 );
 
 const OrderSummary = () => {
